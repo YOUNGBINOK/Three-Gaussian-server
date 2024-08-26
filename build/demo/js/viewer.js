@@ -1,6 +1,6 @@
 import * as GaussianSplats3D from "@mkkellogg/gaussian-splats-3d";
 import * as THREE from "three";
-import { GLTFLoader } from "./GLTFLoader.js";
+import { GLTFLoader } from "../lib/GLTFLoader.js";
 //import nipplejs from "nipplejs";
 
 function detectMobileDevice(agent) {
