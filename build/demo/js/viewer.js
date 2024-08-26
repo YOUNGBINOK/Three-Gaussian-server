@@ -359,9 +359,8 @@ async function loadGltf(scene, path, position, lookAt) {
       idleAction.play();
       scene.add(gltf.scene);
     },
-    function (xhr) {},
     function (error) {
-      console.log(error);
+      console.error(error);
     }
   );
 }
