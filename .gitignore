@@ -1,0 +1,11 @@
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+
+# Specific directory
+build/demo/assets/models/*
+
+node_modules
