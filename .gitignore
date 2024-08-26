@@ -6,6 +6,6 @@
 *.tmp
 
 # Specific directory
-build/demo/assets/models/*
+#build/demo/assets/models/*
 
 node_modules
