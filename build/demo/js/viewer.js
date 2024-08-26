@@ -361,7 +361,7 @@ async function loadGltf(scene, path, position, lookAt) {
     },
     function (xhr) {},
     function (error) {
-      console.log("An error happened");
+      console.log(error);
     }
   );
 }
